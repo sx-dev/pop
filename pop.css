@@ -1,0 +1,45 @@
+.pop{
+
+    position: absolute;
+    border:4px solid #0055ef; 
+    border-radius:8px; 
+    border-top:none;
+    background-color: lightblue;
+
+}
+
+.pop .pop-close{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    position: absolute;
+    top: 4px;
+    right:0px;
+    background:url(images/closebtn.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.pop .pop-title{
+
+    width: 100%;
+    height: 30px; 
+    line-height:30px; 
+    color:#fff;
+    background:#efefef url(images/titlebg.jpg) repeat-x; font-size:14px; text-indent:1em;
+
+}
+
+.pop .pop-content{
+        overflow: hidden;
+        background:#fff; 
+}
+
+.pop .pop-content iframe{
+        width: 100%;
+        height: 100%;
+        background-color: lightyellow;
+}
+
+.pop .pop-footer{
+    width: 100%;
+}
